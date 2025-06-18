@@ -12,4 +12,9 @@ int main()
             {"MacBook", 32, 59999.99},
             {"Acer", 8, 39999.99}
     };
+    for(int i = 0; i < n; i++){
+        if(arr[i].OM > 10){
+            arr[i].showInfo();
+        }
+    }
 }
